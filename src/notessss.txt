@@ -1,0 +1,41 @@
+font-family: "Times New Roman", Times, serif;
+
+1 rem = 16 px
+
+fa-2xs	0.625em	10px
+fa-xs	0.75em	12px
+fa-sm	0.875em	14px
+fa-lg	1.25em	20px
+fa-xl	1.5em	24px
+fa-2xl	2em	    32px
+
+The form method attribute specifies how data from a form should be submitted to the server. 
+The two most commonly used methods are GET and POST
+POST:
+    When using the POST method, the form data is appended to the HTTP request body and sent to the server. 
+    This method is typically used when you want to submit sensitive or large amounts of data, 
+    such as login credentials or file uploads, as it doesn't expose the data in the URL
+
+GET:
+    On the other hand, the GET method appends the form data to the URL as query parameters, which makes it visible and bookmarkable. 
+    It is typically used for fetching data or performing read-only operations.
+
+minmax(300px, 1fr):
+minmax(): This function sets the minimum and maximum size for a grid track.sets the minimum size to 300px and the maximum size to 1fr.
+300px: This is the minimum width that each grid column should have.
+1fr: This is the maximum width that each grid column should have. 
+    The fr unit represents a fraction of the available space, so 1fr indicates that the columns should expand and occupy an equal amount of space.
+
+
+
+
+
+
+
+
+
+
+    remain wrkssssssssss
+            //email api cnct              .....done
+            //contact us page form 
+            //print/invoice page

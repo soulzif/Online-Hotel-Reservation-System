@@ -1,0 +1,419 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Poppins:wght@400;600&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@300&display=swap');
+/* variable declaration   --varname: color; */
+:root {
+    --Primary: #EE4E34;
+    --Primary-light: #ee4d349c;
+    --Secondary: #0d1137;
+    --Secondary-light: #0d1137b0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+::selection {
+    color: var(--Primary);
+    color: var(--Secondary);
+}
+body {
+    background: linear-gradient(to bottom, #0f3443, #34e89e);
+    /* background-repeat: no-repeat; */
+}
+
+/*  * - universal tag all components will select*/
+* {
+    margin: 0;
+    padding: 0;
+    /* if did padding size wont increase */
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.flex-design {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content {
+    max-width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headercontent {
+    background-color: #0c2096;
+    padding: 0 2rem;
+    color: #ffce14;
+    height: 12vh;
+    font-weight: bold;
+}
+
+.page-header {
+    font-size: 40px;
+}
+
+.adminhr {
+    margin-left: 0px;
+    width: 100%;
+}
+
+.adminbg {
+    background-color: #d9edf7;
+    color: #089cff;
+}
+
+p {
+    font-weight: lighter;
+    font-size: 65px;
+}
+
+a {
+    color: white;
+}
+
+
+
+
+/* to remove text decoration underlines */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.tableadminshow {
+    border: 1px solid;
+    width: 50%;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: white;
+
+}
+
+th {
+    background-color: #1dca34;
+    border-collapse: collapse;
+    color: white;
+    padding: 8px;
+
+}
+
+td {
+    border-collapse: collapse;
+    border: 0.5px solid;
+    padding: 8px;
+}
+
+.btnsuccess {
+    width: 55px;
+    ;
+    color: aliceblue;
+    background-color: #06daffef;
+    display: inline-block;
+
+    transition: 300ms;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.divmain {
+    margin-top: 10%;
+    margin-left: 40%;
+    margin-right: 10%;
+
+}
+
+/* Admin room booking header */
+.page-header {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+/* NEW ROOM contents */
+.panel-heading {
+    color: white;
+    background-color: #089cff;
+
+
+}
+
+.form-group {
+    color: #000000;
+    margin-bottom: 10px;
+    
+}
+
+.mbg {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+select {
+    width: 800px;
+}
+
+.mb {
+    margin-bottom: 2rem;
+}
+
+.mt {
+    margin-top: 2rem;
+}
+
+.m {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-left: 20px;
+}
+
+.tableroominfo {
+    width: 100%;
+    margin-left: 100px;
+
+}
+
+/* DELETE ROOM contents */
+
+.panell {
+    margin-top: 180px;
+}
+.panelll {
+    margin-top: 100px;
+}
+
+.btndelete {
+    width: auto;
+    color: aliceblue;
+    background-color: #f52f0c;
+    transition: 300ms;
+    cursor: pointer;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+.btndelete:hover {
+    background-color: #caf50c;
+}
+
+.mainbg {
+    background-color: #ffffff;
+    width: 100%;
+    height: 10%;
+}
+
+/* fieldset class */
+.fs {
+    background-color: white;
+    width: 100%;
+}
+
+.panel-body {
+    text-align: left;
+    color: red;
+
+}
+
+.be {
+    width: 10%;
+    margin-left: 45%;
+    margin-right: 25%;
+}
+
+/* payment details content */
+.paybg {
+    background-color: #d9edf7;
+}
+
+/* roombook contents */
+.btncircle {
+    border-radius: 50%;
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1px 8px;
+}
+
+.btntotcircle {
+    border-radius: 50%;
+    background-color: #ff0505;
+    color: white;
+    border: none;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1px 8px;
+}
+
+
+/* available room details align class */
+.panel-av {
+    color: white;
+    background-color: #089cff;
+    width: 80%;
+    height: 40px;
+    text-align: center;
+    text-align: middle;
+    margin-left: 100px;
+
+}
+
+.panel-diff {
+    margin-top: -590px;
+    margin-left: 1000px;
+}
+
+.tablebookshow {
+    border: 1px solid;
+    width: 70%;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    height: 40%;
+}
+
+.tableroominfo {
+    border: 1px solid;
+    width: 80%;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: white;
+    color: rgb(0, 0, 0);
+
+}
+
+/* ROOM STATUS contents */
+.ali {
+    margin-top: 20px;
+    display: grid;
+    grid-column-gap: 76px;
+    grid-row-gap: 96px;
+    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+    align-content: start;
+    text-align: start;
+}
+
+.subfun {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* available room icon cls */
+.panel-body1 {
+    color: rgb(2, 39, 8);
+    margin-top: 70px;
+    font-weight: bolder;
+}
+
+/* room type */
+.panel-footer {
+    color: rgb(255, 255, 255);
+    margin-left: -268px;
+    font-weight: lighter;
+}
+
+.alii {
+    margin-top: 80px;
+    display: grid;
+    grid-column-gap: 76px;
+    grid-row-gap: 96px;
+    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+    align-content: start;
+    text-align: start;
+}
+
+/* add admin table customize */
+.gohome{
+margin-left: -250px;
+}
+.gohome:hover {
+    color: red;
+  }
+
+.tableadmin{
+    margin-top: -20px;
+    margin-left: -246px;
+    background-color: #ffffff00;
+    text-align:center;
+    width:74%;
+ 
+    }
+    
+.adminfield{
+    border: none;
+    border-left: 3px solid #3CBC8D;
+    border-bottom: 3px solid #3CBC8D;
+    width: 300px;
+    padding:10px;
+    color: rgb(255, 255, 255);
+    background-color: #ffffff00;
+    color: white;
+
+}
+.adminn{
+    font-family: 'Anuphan', sans-serif;
+  }
+  .headercontent{
+    background-color: #0a3008;
+
+    padding:0 2rem;
+    color:#ffce14;
+    height: 12vh;
+    font-weight:bold;
+}
+.nav-linkss{
+    width: 170px;
+}
+/* pesuodo class */
+.nav-linkss li::after{
+    content:'';
+    display: block;
+    background-color:yellow;
+    height: 2px;
+    /* width: 0%; */
+    transform: scaleX(0);    
+    transition: transform 300ms;
+}
+.nav-linkss li:hover::after{
+  
+    transform: scaleX(1);  
+}
+
+/* edit admin table customize */
+.gohomee{
+    margin-left: 0px;
+    }
+    .gohomee:hover {
+        color: red;
+      }
+    
